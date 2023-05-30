@@ -1,5 +1,5 @@
-# Task-6 # <br>
-## Subtask 1 ## <br>
+# Task-6  <br>
+## Subtask 1  <br>
 *11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd 🙈* <br>
 __→ UPDATE customers SET surname = REPLACE(surname, 'Muler', 'Miler') WHERE surname = 'Muler';__ <br>
 *12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.*<br>
@@ -19,3 +19,7 @@ __→ UPDATE movies SET price = price + 2.5 WHERE year_of_production > 2000;__ <
 __→ SELECT name, surname<br>FROM actors<br>JOIN cast ON actor_id<br>JOIN movies ON movie_id<br>WHERE actor_id = 4;<br>
 *20. A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa* <br>
 __→ INSERT INTO customers (customer_id, name, surname, email, pseudonym) VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa')__
+## Subtask 2
+Ilość punktów osiągnięta w quizie: 12/15, nie tak źle, aleeee...moglo być znacznie lepiej.
+## Subtask 3
+Przykro mi, ale portfolio będę musiała dopisać później :/
