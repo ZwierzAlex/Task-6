@@ -23,3 +23,4 @@ __→ INSERT INTO customers (customer_id, name, surname, email, pseudonym) VALUE
 Ilość punktów osiągnięta w quizie: 12/15, nie tak źle, aleeee...moglo być znacznie lepiej.
 ## Subtask 3
 Przykro mi, ale portfolio będę musiała dopisać później :/
+![wynik testu](https://github.com/ZwierzAlex/Task-6/assets/131251044/86c9cabf-55d3-4ac0-9c39-6c29faec597d)
