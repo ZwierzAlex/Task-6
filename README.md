@@ -1,9 +1,9 @@
-# Task-6 <br>
-##Subtask 1## <br>
+# Task-6 # <br>
+## Subtask 1 ## <br>
 *11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd 🙈* <br>
 __→ UPDATE customers SET surname = REPLACE(surname, 'Muler', 'Miler') WHERE surname = 'Muler';__ <br>
 *12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.*<br>
-__→ SELECT name, email <br>FROM customers <br>JOIN sale ON customer_id = sale.customer_id<br>JOIN movies ON movie_id = sale.movie_id<br>WHERE movie_id = 4<br>AND sale.ile_pobrano > sale.pice;__<br>
+__→ SELECT name, email <br>FROM customers <br>JOIN sale ON customer_id <br>JOIN movies ON movie_id <br>WHERE movie_id = 4<br>AND sale.ile_pobrano > sale.price;__<br>
 *13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com* <br>
 __→ UPDATE customers SET email = 'pati@mail.com' WHERE name = 'Patrycja' AND email IS NULL;__ <br>
 *14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).* <br>
