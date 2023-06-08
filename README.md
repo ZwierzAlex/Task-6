@@ -21,6 +21,4 @@ __→ SELECT name, surname<br>FROM actors<br>JOIN cast ON actor_id<br>JOIN movie
 __→ INSERT INTO customers (customer_id, name, surname, email, pseudonym) VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa')__
 ## Subtask 2
 Ilość punktów osiągnięta w quizie: 12/15, nie tak źle, aleeee...moglo być znacznie lepiej.
-## Subtask 3
-Przykro mi, ale portfolio będę musiała dopisać później :/
 ![wynik testu](https://github.com/ZwierzAlex/Task-6/assets/131251044/86c9cabf-55d3-4ac0-9c39-6c29faec597d)
