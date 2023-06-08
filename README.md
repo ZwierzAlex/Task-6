@@ -20,5 +20,5 @@ __→ SELECT name, surname<br>FROM actors<br>JOIN cast ON actor_id<br>JOIN movie
 *20. A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa* <br>
 __→ INSERT INTO customers (customer_id, name, surname, email, pseudonym) VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa')__
 ## Subtask 2
-Ilość punktów osiągnięta w quizie: 12/15, nie tak źle, aleeee...moglo być znacznie lepiej.
+Ilość punktów osiągnięta w quizie: 12/15, nie tak źle, aleeee...mogło być znacznie lepiej.
 ![wynik testu](https://github.com/ZwierzAlex/Task-6/assets/131251044/86c9cabf-55d3-4ac0-9c39-6c29faec597d)
